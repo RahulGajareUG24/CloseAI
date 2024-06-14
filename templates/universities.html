@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CloseAI - Revolutionizing How you Choose universities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .nav {
+            padding: 15px 0;
+        }
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Choose universities</h1>
+    </div>
+    
+    <div class="nav">
+        <a href="{{ url_for('index', university_name='Ashoka_university') }}">Ashoka university</a>
+        <a href="{{ url_for('index', university_name='Stanford_university') }}">Stanford university</a>
+        <a href="{{ url_for('index', university_name='Krea_university') }}">Krea university</a> 
+    </div>
+    <div class="content">
+
+    <div class="footer">
+        <p>&copy; 2024 CloseAI. All rights reserved.</p>
+    </div>
+</body>
+</html>

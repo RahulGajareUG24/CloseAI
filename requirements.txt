@@ -1,0 +1,14 @@
+environs==9.5.0
+Flask==2.3.2
+Flask-SQLAlchemy==3.1.1
+langchain==0.0.271
+milvus==2.2.12
+openai==0.27.9
+pymilvus==2.2.12
+pypdf==4.2.0
+sentence-transformers==2.2.2
+SQLAlchemy==2.0.20
+tiktoken==0.5.1
+torch==2.0.1
+transformers==4.32.0
+unstructured==0.10.5
